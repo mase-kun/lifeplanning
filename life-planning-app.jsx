@@ -825,12 +825,13 @@ const LifePlanningApp = () => {
             backgroundSize: '30px 30px'
           }}></div>
           
-          <div className="relative max-w-4xl mx-auto px-6 py-16 text-center">
+          <div className="relative max-w-4xl mx-auto px-6 py-12 text-center">
             <div className="inline-block mb-4">
+              <img src="./logo.png" alt="Unicara" className="h-20 mx-auto mb-4 drop-shadow-lg" />
               <div className="text-5xl font-bold text-white drop-shadow-lg" style={{
                 textShadow: '3px 3px 0px rgba(0,0,0,0.1)'
               }}>
-                Unicara Life Planning
+                Life Planning
               </div>
               <div className="mt-2 h-1 bg-white/50 rounded-full"></div>
             </div>
@@ -2778,9 +2779,7 @@ const LifePlanningApp = () => {
           <div className="text-center">
             <div className="mb-6 inline-block">
               <div className="flex items-center gap-4 justify-center mb-4">
-                <div className="w-14 h-14 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-2xl">U</span>
-                </div>
+                <img src="./logo.png" alt="Unicara" className="h-14 drop-shadow-lg" />
                 <div>
                   <div className="text-2xl font-bold bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">
                     Unicara Life Planning
